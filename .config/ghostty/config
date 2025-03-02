@@ -1,0 +1,8 @@
+font-family="JetBrainsMono Nerd Font"
+font-size=10
+window-padding-x=4
+window-padding-y=8
+window-theme=ghostty
+theme=light:catppuccin-latte.conf,dark:catppuccin-mocha.conf
+keybind=ctrl+t=new_tab
+keybind=ctrl+w=close_tab
