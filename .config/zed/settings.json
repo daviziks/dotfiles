@@ -23,7 +23,7 @@
   },
   "terminal": {
     "font_size": 13,
-    "font_family": "JetBrainsMono Nerd Font",
+    "font_family": "Maple Mono",
     "cursor_shape": "bar",
     "default_height": 250,
     "shell": {
