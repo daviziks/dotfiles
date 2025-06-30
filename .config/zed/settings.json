@@ -15,7 +15,7 @@
     "dark": "Catppuccin Mocha"
   },
   "ui_font_family": ".SystemUIFont",
-  "buffer_font_family": "Maple Mono NF",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "auto_install_extensions": {
     "biome": true,
     "catppuccin": true,
@@ -23,7 +23,7 @@
   },
   "terminal": {
     "font_size": 13,
-    "font_family": "Maple Mono NF",
+    "font_family": "JetBrainsMono Nerd Font",
     "cursor_shape": "bar",
     "default_height": 250,
     "shell": {
