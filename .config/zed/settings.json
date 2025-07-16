@@ -1,4 +1,12 @@
 {
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4"
+    },
+    "model_parameters": [],
+    "play_sound_when_agent_done": true
+  },
   "icon_theme": {
     "mode": "system",
     "light": "Colored Zed Icons Theme Light",
@@ -9,17 +17,19 @@
   },
   "ui_font_size": 16,
   "buffer_font_size": 14,
+  "buffer_font_weight": 600,
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "dark": "Github Dark"
   },
   "ui_font_family": ".SystemUIFont",
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "auto_install_extensions": {
     "biome": true,
     "catppuccin": true,
-    "colored-zed-icons-theme": true
+    "colored-zed-icons-theme": true,
+    "toml": true
   },
   "terminal": {
     "font_size": 13,
@@ -32,5 +42,38 @@
     "toolbar": {
       "breadcrumbs": false
     }
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    }
+  },
+  "languages": {
+    "JavaScript": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      }
+    },
+    "TypeScript": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      }
+    },
+    "TSX": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true
+      }
+    }
+  },
+  "project_panel": {
+    "auto_fold_dirs": false
   }
 }
