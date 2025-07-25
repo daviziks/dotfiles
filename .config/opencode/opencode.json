@@ -15,7 +15,9 @@
       "type": "local",
       "command": ["npx", "-y", "https://github.com/rlabs-inc/gemini-mcp.git"],
       "environment": {
-        "GEMINI_API_KEY": "nice-try-idiot"
+        "GEMINI_API_KEY": "nice-try-idiot",
+        "GEMINI_MODEL": "gemini-2.0-flash",
+        "GEMINI_PRO_MODEL": "gemini-2.0-flash"
       },
       "enabled": true
     }
