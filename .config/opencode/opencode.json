@@ -8,17 +8,26 @@
     },
     "context7": {
       "type": "local",
-      "command": ["bunx", "-y", "@upstash/context7-mcp"],
+      "command": ["fish", "-c", "bunx -y @upstash/context7-mcp"],
       "enabled": true
     },
     "gemini": {
       "type": "local",
-      "command": ["npx", "-y", "https://github.com/rlabs-inc/gemini-mcp.git"],
+      "command": ["fish", "-c", "pnpm dlx https://github.com/rlabs-inc/gemini-mcp.git"],
       "environment": {
         "GEMINI_API_KEY": "nice-try-idiot",
         "GEMINI_MODEL": "gemini-2.5-flash-lite-preview-06-17",
         "GEMINI_PRO_MODEL": "gemini-2.5-flash-lite-preview-06-17"
       },
+      "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "fish",
+        "-c",
+        "bunx @playwright/mcp@latest"
+      ],
       "enabled": true
     }
   }
