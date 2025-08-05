@@ -24,7 +24,7 @@
     "dark": "Github Dark"
   },
   "ui_font_family": ".SystemUIFont",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "Maple Mono NF",
   "auto_install_extensions": {
     "biome": true,
     "catppuccin": true,
@@ -33,7 +33,7 @@
   },
   "terminal": {
     "font_size": 13,
-    "font_family": "JetBrainsMono Nerd Font",
+    "font_family": "Maple Mono NF",
     "cursor_shape": "bar",
     "default_height": 250,
     "shell": {
