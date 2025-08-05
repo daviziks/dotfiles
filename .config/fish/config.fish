@@ -1,5 +1,5 @@
 starship init fish | source
-mise activate fish | source
+~/.local/bin/mise activate fish | source
 alias cat=bat
 alias lzg=lazygit
 alias ls="eza -1 --icons"
