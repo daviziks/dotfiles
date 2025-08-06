@@ -1,4 +1,17 @@
 {
+  "indent_guides": {
+    "enabled": false,
+    "line_width": 0,
+    "active_line_width": 0,
+    "coloring": "fixed",
+    "background_coloring": "disabled"
+  },
+  "tab_size": 2,
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "auto"
+  },
+  "cursor_blink": true,
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
@@ -16,12 +29,11 @@
     "edit_prediction_provider": "copilot"
   },
   "ui_font_size": 16,
-  "buffer_font_size": 14,
-  "buffer_font_weight": 600,
+  "buffer_font_size": 13.5,
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Github Dark"
+    "dark": "Github Dark Colorblind"
   },
   "ui_font_family": ".SystemUIFont",
   "buffer_font_family": "Maple Mono NF",
