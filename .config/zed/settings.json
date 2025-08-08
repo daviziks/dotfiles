@@ -41,7 +41,8 @@
     "biome": true,
     "catppuccin": true,
     "colored-zed-icons-theme": true,
-    "toml": true
+    "toml": true,
+    "github-theme": true
   },
   "terminal": {
     "font_size": 13,
