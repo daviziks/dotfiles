@@ -6,14 +6,9 @@
       "command": ["bunx", "-y", "@upstash/context7-mcp"],
       "enabled": true
     },
-    "gemini": {
-      "type": "local",
-      "command": ["fish", "-c", "pnpm dlx https://github.com/rlabs-inc/gemini-mcp.git"],
-      "environment": {
-        "GEMINI_API_KEY": "nice-try-idiot",
-        "GEMINI_MODEL": "gemini-2.5-flash-lite-preview-06-17",
-        "GEMINI_PRO_MODEL": "gemini-2.5-flash-lite-preview-06-17"
-      },
+    "grep": {
+      "type": "remote",
+      "url": "https://mcp.grep.app",
       "enabled": true
     },
     "playwright": {
