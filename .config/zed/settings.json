@@ -53,7 +53,7 @@
     "dark": "Github Dark Colorblind"
   },
   "ui_font_family": ".SystemUIFont",
-  "buffer_font_family": "Maple Mono NF",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "auto_install_extensions": {
     "biome": true,
     "catppuccin": true,
