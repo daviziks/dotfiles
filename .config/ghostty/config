@@ -1,5 +1,5 @@
-font-family="JetBrainsMono Nerd Font"
-font-size=11
+font-family="MartianMono Nerd Font"
+font-size=10
 window-padding-x=8
 window-padding-y=8
 window-theme=ghostty
@@ -7,3 +7,4 @@ theme=light:catppuccin-latte,dark:GitHub-Dark-Colorblind
 keybind=ctrl+t=new_tab
 keybind=ctrl+w=close_tab
 command=fish
+adjust-cell-height = 2
