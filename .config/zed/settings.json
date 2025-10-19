@@ -36,7 +36,7 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Cursor Dark"
+    "dark": "Github Dark"
   },
   "ui_font_family": ".ZedMono",
   "buffer_font_family": "MartianMono Nerd Font",
@@ -45,7 +45,8 @@
     "catppuccin": true,
     "colored-zed-icons-theme": true,
     "toml": true,
-    "github-theme": true
+    "github-theme": true,
+    "symbols": true
   },
   "terminal": {
     "font_size": 13,
