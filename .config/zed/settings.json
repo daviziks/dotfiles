@@ -31,15 +31,15 @@
   "features": {
     "edit_prediction_provider": "copilot"
   },
-  "ui_font_size": 12,
-  "ui_font_family": "MartianMono Nerd Font Propo",
-  "ui_font_weight": 200,
+  "ui_font_size": 14,
+  "ui_font_family": ".ZedMono",
+  "ui_font_weight": 500,
   "buffer_font_size": 12.5,
   "buffer_font_family": "MartianMono Nerd Font",
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Github Dark"
+    "dark": "Cursor Dark"
   },
   "auto_install_extensions": {
     "biome": true,
