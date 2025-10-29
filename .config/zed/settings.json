@@ -18,7 +18,7 @@
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "model": "claude-sonnet-4.5"
     },
     "model_parameters": [],
     "play_sound_when_agent_done": true
@@ -31,23 +31,22 @@
   "features": {
     "edit_prediction_provider": "copilot"
   },
-  "ui_font_size": 14,
-  "ui_font_family": ".ZedMono",
-  "ui_font_weight": 500,
-  "buffer_font_size": 12.5,
-  "buffer_font_family": "MartianMono Nerd Font",
+  "ui_font_size": 15,
+  "ui_font_family": ".ZedSans",
+  "buffer_font_size": 14,
+  "buffer_font_family": "ComicShannsMono Nerd Font",
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Cursor Dark"
+    "dark": "Vesper"
   },
   "auto_install_extensions": {
     "biome": true,
     "catppuccin": true,
     "colored-zed-icons-theme": true,
     "toml": true,
-    "github-theme": true,
-    "symbols": true
+    "symbols": true,
+    "cursor": true
   },
   "terminal": {
     "font_size": 12,
