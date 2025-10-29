@@ -1,0 +1,34 @@
+{
+    "symbols.hidesExplorerArrows": true,
+    "workbench.navigationControl.enabled": false,
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": true,
+    "editor.fontFamily": "ComicShannsMono Nerd Font Propo",
+    "terminal.integrated.fontFamily": "ComicShannsMono Nerd Font Propo",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 15,
+    "editor.lineHeight": 1.8,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Vesper",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte",
+    "git.autofetch": true,
+    "biome.suggestInstallingGlobally": false,
+    "workbench.iconTheme": "symbols",
+    "workbench.tree.renderIndentGuides": "none",
+    "scm.compactFolders": false,
+    "explorer.compactFolders": false,
+    "editor.guides.indentation": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    "cursor.composer.shouldAllowCustomModes": true,
+    "cursor.diffs.useCharacterLevelDiffs": true,
+    "workbench.productIconTheme": "Tabler",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.profiles.linux": {
+        "fish": {
+            "path": "/usr/bin/fish"
+        }
+    },
+    "terminal.integrated.shellIntegration.enabled": true
+}
